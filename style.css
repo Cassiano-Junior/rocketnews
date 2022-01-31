@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-height: 780px;
 }
 
 .fundo{
@@ -29,7 +30,7 @@
     position:absolute;
 }
 
-.span1{
+.section1{
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -84,8 +85,9 @@ input {
     margin-top: 20px;
     width: 750px;
     height: 48px;
+    border:none;
     border-left:#08C05E 5px solid;
-    background-color: #FFFFFF
+    padding-left: 10px;
 }
 
 button {
@@ -95,13 +97,32 @@ button {
     background-color: #8257E5;
     justify-content: center;
     margin-top: 20px;
+    border: none;
 }
 
-.span2 {
+.section2 {
     display:flex;
 }
 
 .icon {
     display: flex;
     margin-top: 10px;
+}
+
+.link {
+    display: flex;
+    position: absolute;
+    color: #8257E5;
+    font-family: "Spartan";
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 522px;
+    margin-left: 36px;
+    align-items: center;
+}
+
+.seta-link {
+    display: flex;
+    margin-left: 5px;
 }
